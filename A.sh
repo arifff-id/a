@@ -273,6 +273,6 @@ echo -e $red" Bye ea :* "
 Sleep
 exit
 fi
-Fi
+
 
 
