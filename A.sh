@@ -57,7 +57,7 @@ echo -e $green" 13) FBBrute"
 echo -e $white""
 read -p "[Faisal]> " act;
 
-if [ $Sayang = 01 ] || [ $Sayang = 01 ]
+if [ $Sayangku = 01 ] || [ $Sayangku = 01 ]
 then
 clear
 echo -e $green" Installing Red Hawk "
@@ -69,7 +69,7 @@ git clone https://github.com/Tuhinshubhra/RED_HAWK
 echo -e $green" Done Install Cuk "
 fi
 
-if [ $Sayang = 02 ] || [ $Sayang = 02 ]
+if [ $Sayangku = 02 ] || [ $Sayangku = 02 ]
 then
 clear
 echo -e $green" Installing D-Tect "
@@ -81,7 +81,7 @@ git clone https://github.com/shawarkhanethicalhacker/D-TECT
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $Sayang = 03 ] || [ $Sayang = 03 ]
+if [ $Sayangku = 03 ] || [ $Sayangku = 03 ]
 then
 clear
 echo -e $green" Installing Hunner "
@@ -93,7 +93,7 @@ git clone https://github.com/b3-v3r/Hunner
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 04 ] || [ $act = 04 ]
+if [ $Sayangku = 04 ] || [ $Sayangku = 04 ]
 then
 clear
 echo -e $green" Installing Wpscan "
@@ -112,7 +112,7 @@ cd ~/
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 05 ] || [ $act = 05 ]
+if [ $Sayangku = 05 ] || [ $Sayangku = 05 ]
 then
 clear
 echo -e $green" Installing Webdav "
@@ -130,7 +130,7 @@ cd ~/
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 06 ] || [ $act = 06 ]
+if [ $Sayangku = 06 ] || [ $Sayangku = 06 ]
 then
 clear
 echo -e $green" Installing Metasploit "
@@ -144,7 +144,7 @@ sh install.sh
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 07 ] || [ $act = 07 ]
+if [ $Sayangku = 07 ] || [ $Sayangku = 07 ]
 then
 clear
 echo -e $green" Installing Kali Nethunter "
@@ -158,7 +158,7 @@ sh kalinethunter
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 08 ] || [ $act = 08 ]
+if [ $Sayangku = 08 ] || [ $Sayangku = 08 ]
 then
 clear
 echo -e $green" Installing Ubuntu "
@@ -177,7 +177,7 @@ echo "nameserver 8.8.8.8" > /data/data/com.termux/files/home/termux-ubuntu/ubunt
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 09 ] || [ $act = 09 ]
+if [ $Sayangku = 09 ] || [ $Sayangku = 09 ]
 then
 clear
 echo -e $green" Installing Youtube DL "
@@ -191,7 +191,7 @@ echo " Untuk menjalankannya ketik "mpsyt" tanpa tanda petik "
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 10 ] || [ $act = 10 ]
+if [ $Sayangku = 10 ] || [ $Sayangku = 10 ]
 then
 clear
 echo -e $green" Installing viSQL "
@@ -206,7 +206,7 @@ cd ~/
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 11 ] || [ $act = 11 ]
+if [ $Sayangku = 11 ] || [ $Sayangku = 11 ]
 then
 clear
 echo -e $green" Installing Weeman "
@@ -222,7 +222,7 @@ cd ~/
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 12 ] || [ $act = 12 ]
+if [ $Sayangku = 12 ] || [ $Sayangku = 12 ]
 then
 clear
 echo -e $green" Installing WFDroid "
@@ -238,7 +238,7 @@ cd ~/
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 13 ] || [ $act = 13 ]
+if [ $Sayangku = 13 ] || [ $Sayangku = 13 ]
 then
 clear
 sleep 1
@@ -255,186 +255,8 @@ mv password.apk password.txt
 chmod 777 fbbrute.py
 cd ~/
 echo -e $red" Done Install Cuk "
-fi
 
-if [ $act = 14 ] || [ $act = 14 ]
-then
-clear
-echo -e $green" Installing Ngrok "
-sleep 1
-apt install wget
-mkdir ngrok
-cd ~/ngrok
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
-unzip ngrok-stable-linux-arm.zip
-cd ~/
-echo -e $red" Done Install Cuk "
-fi
-
-if [ $act = 15 ] || [ $act = 15 ]
-then
-clear
-echo -e $green" Installing Hammer "
-sleep 1
-pkg update
-pkg upgrade
-pkg install python
-pkg install git
-git clone https://github.com/cyweb/hammer
-cd ~/
-echo -e $red" Done Install Cuk "
-fi
-
-if [ $act = 16 ] || [ $act = 16 ]
-then
-clear
-echo -e $green" Installing Routersploit "
-sleep 1
-apt install git
-apt install python2
-pip2 install requests
-git clone https://github.com/reverse-shell/routersploit.git
-cd routersploit
-pip install -r requirements.txt
-termux-fix-shebang rsf.py
-cd ~/
-echo -e $red" Done Install Cuk "
-fi
-
-if [ $act = 17 ] || [ $act = 17 ]
-then
-clear
-echo -e $green" Installing Hydra "
-sleep 1
-apt update && apt install -y wget
-apt install hydra
-wget http://scrapmaker.com/download/data/wordlists/dictionaries/rockyou.txt
-cd ~/
-echo -e $red" Done Install Cuk "
-fi
-
-if [ $act = 18 ] || [ $act = 18 ]
-then
-clear
-echo -e $green" Installing Weevely "
-sleep 1
-pkg update
-pkg upgrade
-git clone https://github.com/glides/Weevely
-cd ~/
-echo -e $red" Done Install Cuk "
-fi
-
-if [ $act = 19 ] || [ $act = 19 ]
-then
-clear
-echo -e $green" Installing SQLMap "
-sleep 1
-apt update && apt upgrade
-apt install python2
-git clone https://github.com/sqlmapproject/sqlmap.git
-cd ~/
-echo -e $red" Done Install Cuk "
-fi
-
-if [ $act = 20 ] || [ $act = 20 ]
-then
-clear
-echo -e $green" Installing Dirbuster "
-sleep 1
-apt-get update
-apt-get install python
-apt-get install git
-git clone https://github.com/maurosoria/dirsearch.git
-cd ~/
-echo -e $red" Done Install Cuk "
-fi
-
-if [ $act = 21 ] || [ $act = 21 ]
-then
-clear
-echo -e $green" Installing admin finder "
-sleep 1
-apt update && apt upgrade
-apt-get install php
-mkdir adfin
-cd ~/webdav
-wget https://pastebin.com/raw/32txZ6Qr -O adfin.php
-cd ~/
-echo -e $red" Done Install Cuk "
-fi
-
-if [ $act = 22 ] || [ $act = 22 ]
-then
-clear
-echo -e $green" installing lokomedia exploiter "
-sleep 1
-apt update && apt upgrade
-apt-get install php
-mkdir lokomed
-cd ~/lokomed
-wget https://pastebin.com/raw/sPpJRjCZ -O lokomedia.php
-cd ~/
-echo -e $red" Done Install Cuk "
-echo -e $red" usage : php lokomedia.php a.txt "
-fi
-
-if [ $act = 23 ] || [ $act = 23 ]
-then
-clear
-echo -e $green" installing elfinder exploiter "
-sleep 1
-apt update && apt upgrade
-apt-get install php
-mkdir elfinder
-cd ~/elfinder
-wget https://pastebin.com/raw/S7Y2V19h -O elfinder.php
-cd ~/
-echo -e $red" Done Install Cuk "
-fi
-
-if [ $act = 24 ] || [ $act = 24 ]
-then
-clear
-echo -e $green" installing magento add admin exploiter "
-sleep 1
-apt update && apt upgrade
-apt-get install php
-mkdir magento
-cd ~/magento
-wget https://pastebin.com/raw/PXkG73pG -O magento.php
-cd ~/
-echo -e $red" Done Install Cuk "
-fi
-
-if [ $act = 25 ] || [ $act = 25 ]
-then
-clear
-echo -e $green" installing scanner tools "
-sleep 1
-apt update && apt upgrade
-apt install python2
-mkdir scanner
-cd ~/scanner
-wget https://pastebin.com/raw/m79t1Zia -O scanner.py
-wget https://pastebin.com/raw/mgKxMWXh -O admins.1337
-wget https://pastebin.com/raw/EafKj98D -O files.1337
-cd ~/
-echo -e $red" Done Install Cuk "
-echo -e $red" usage : python2 scanner.py site.com -m files "
-fi
-
-if [ $act = 26 ] || [ $act = 26 ]
-then
-clear
-echo -e $green" installing bing dorker "
-sleep 1
-apt update && apt upgrade
-apt-get install php
-mkdir bing
-cd ~/bing
-wget https://pastebin.com/raw/tjQY6Tsg -O dorker
-if [ $act = 55 ] || [ $act = 55 ]
+if [ $Sayangku = 55 ] || [ $Sayangku = 55 ]
 then
 echo -e $green" Please Wait.... "
 sleep 1
