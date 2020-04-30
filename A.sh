@@ -28,7 +28,7 @@ echo -e $white"[#]> Here  ... "
 read enter
 exit
 }
-         
+echo -e $red"         
 echo -e $red"           / _ \ | ___ \_   _|  ___|   |_  _/___|/ _ \| |"
 echo -e $red"          / /_\ \| |_/ / | | | |_      | | \`--./ /_\ \ |"
 echo -e $red"          |  _  ||    /  | | |  _|     | |  `--.\  _  | |"
@@ -271,5 +271,6 @@ echo -e $red" Team : Ngawur "
 sleep 1
 echo -e $red" Bye ea :* "
 Sleep
-Exit
+exit
+fi
 Fi
