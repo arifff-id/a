@@ -59,7 +59,7 @@ echo -e $green" 11) Weeman"
 echo -e $green" 12) WFDroid"
 echo -e $green" 13) FBBrute"
 echo -e $white""
-read -p "[Faisal]> " act;
+read -p "[Faisal]> " Sayangku ;
 
 if [ $Sayangku = 01 ] || [ $Sayangku = 01 ]
 then
@@ -259,6 +259,7 @@ mv password.apk password.txt
 chmod 777 fbbrute.py
 cd ~/
 echo -e $red" Done Install Cuk "
+fi
 
 if [ $Sayangku = 55 ] || [ $Sayangku = 55 ]
 then
